@@ -97,6 +97,7 @@ img {
 	margin-right: 40px;
 	list-style: none;
 	margin-left: 130px;
+	display: inline-flex;
 }
 
 .heading ul li a {
@@ -110,6 +111,10 @@ img {
 
 .heading ul li a:hover {
 	color: #24e09b;
+}
+
+.active a, .heading ul li a:hover {
+	color: red !important;
 }
 
 .heading-btn {
