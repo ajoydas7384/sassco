@@ -97,7 +97,7 @@ img {
 	padding: 0;
 	margin-right: 40px;
 	list-style: none;
-	margin-left: 130px;
+	margin-left: 85px;
 	display: inline-flex;
 }
 
@@ -672,72 +672,39 @@ img {
 	background-color: #24e09b;
 }
 /*################################*/
-/*
-.contant {
-	width: 41%;
-	margin: 5% auto;
-	text-align: center;
-	line-height: 30px;
+
+
+
+
+                                                     
+
+
+										/*start-about*/
+
+
+
+
+
+.header-area {
+	background-image: url(../images/about-img/04_Saasco_About.jpg);
+	background-size: cover;
 }
 
-.contant h2 {
-	font-size: 42px;
+.about-us {
+	margin-top: 11%;
+}
+
+.heading h1 {
+	font-size: 60px;
 	font-family: alata-regular;
-	color: #102039;
-	font-weight: 400;
+	color: white;
+	padding-bottom: 15px;
 }
 
-.contant p {
-	font-size: 17px;
-	font-family: poppins-regular;
-	color: #7a7f83;
-	margin-bottom: 10%;
-}*/
-/*#####################*/
-/*
-.right {
-	margin-right: 0!important;
+.heading span {
+    padding-right: 26px;
+    padding-top: 7px;
+    margin-left: -35px;
+    color: white;
+    font-size: 10px;
 }
-
-.features {
-	width: 75%;
-	margin: 0 auto;
-}*/
-
-/*.features-box {
-	width: 30%;
-	margin-right: 3.5%;
-	display: inline-block;
-	text-align: center;
-	border: 1px solid #F2F4FB;
-	box-shadow: 1px 5px 10px 5px #F7F8FE;
-}
-*/
-/*.features-box h2 {
-	font-size: 27px;
-	font-family: alata-regular;
-	color: #102039;
-	font-weight: 400;
-}
-
-.features-box p {
-	font-size: 15px;
-    line-height: 27px;
-    margin: 0 auto;
-    width: 90%;
-    font-family: poppins-semibold;
-    font-weight: 400;
-    color: #AFB2B4;
-}
-
-.bg-img {
-	width: 30%;
-	/*margin: 0 auto;*/
-/*}
-*/
-/*.features-box img {
-	margin: 10% 0;
-	background-image: url(../images/features-bg.png);
-}*/
-/**/
-/*/*################################################################################################*/
