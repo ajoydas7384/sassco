@@ -323,11 +323,7 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: -10%;
-	padding-bottom: 6%;
-}
-
-.con-padding {
-	padding-top: 16%;
+	padding-bottom: 3%;
 }
 
 .box {
@@ -374,6 +370,10 @@ img {
 
 .table {
 	margin-bottom: -25%;
+}
+
+.table-bgs {
+	padding-bottom: 22%;
 }
 
 .box:hover p {
@@ -859,3 +859,4 @@ img {
 	margin-top: -150px;
 	/*margin-bottom: 6%;*/
 }
+
