@@ -605,59 +605,13 @@ img {
     margin-top: 20px;
 }
 
-.logo-inner:hover {
+.logo-inner:hover .logo-text {
+	border: none;
     box-shadow: 0px 0px 23px 14px #f7f8fe;
 }
 
-.logo-text:hover {
-	border: none;
-}
 		/*team-logo-end*/
 
-
-/*.team-images {
-	margin-bottom: 9%;
-}
-
-
-.team1 {
-	background-image: url(../images/contant-bg1.png);
-	background-size: cover;
-}
-
-.team2 img {
-	background-image: url(../images/contant-bg2.png);
-	background-size: cover;
-}
-
-.team3 img {
-	background-image: url(../images/contant-img3.png);
-	background-size: cover;
-}
-
-.team1, .team2, .team3, .team4 img {
-}
-
-.br {
-	padding: 30px;
-	border: 1px solid #EBEFFA;
-}
-
-.br h4 {
-	font-family: alata-regular;
-	font-size: 25px;
-	line-height: 45px;
-}
-
-.br h6 {
-	color: #434AD2;
-	margin-top: 17px;
-}
-
-.team-up {
-	margin-bottom: 13px;
-}*/
-				/*promossion-end*/
 
 /*#########################################3*/
 
