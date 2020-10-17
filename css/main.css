@@ -1202,3 +1202,11 @@ img {
 	background-color: #0e52d3;
 	color: white;
 }
+
+.number-icon a {
+	color: black;
+}
+
+.number-icon li:hover a {
+	color: white;
+}
