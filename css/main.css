@@ -33,6 +33,7 @@
 
 	}
 
+
 	body {
 		width: 100%;
 		margin: 0 auto;
@@ -98,12 +99,10 @@
 	}
 
 
-
-
-
 	.mainmenu {
 		padding-top: 25px;
 	}
+
 	.header-navbar ul {
 		padding: 0;
 		margin: 0;
@@ -112,10 +111,18 @@
 	.header-navbar ul li {
 		list-style: none;
 		display: inline-block;
+		margin-left: 0;
+		position: relative;
+		color: white;
+	}
+
+	.header-navbar ul li i {
+		margin-left: 5px;
+		font-size: 12px;
 	}
 
 	.header-navbar ul li a {
-		padding: 10px 25px;
+		padding-right: 35px;
 		color: #fff;
 		font-size: 17px;
 		font-family: "alata-regular";
@@ -126,8 +133,43 @@
 		color: #24e09b;
 	}
 
-	.active a, .header-navbar ul li a:hover {
-		color: #25d49e !important;
+
+
+	.header-navbar ul li:hover ul {
+		display: block;
+	}
+
+	.header-navbar ul li:hover ul a {
+		color: white;
+	}
+
+	.header-navbar ul ul {
+		display: none;
+		position: absolute;
+	}
+
+	.header-navbar ul ul li {
+		font-size: 10px;
+		margin-left: -10px;
+		color: white;
+		background-color: #24E09B;
+		width: 220px;
+		padding: 10px 0px;
+	}
+
+	.header-navbar ul ul li a {
+		font-size: 15px;
+		margin-left: 10px;
+	}
+
+	.header-navbar ul ul li:hover {
+		color: white;
+		background-color: black;
+	}
+
+	
+	.active {
+		color: red!important;
 	}
 
 
@@ -136,9 +178,9 @@
 		color: #fff;
 		background-color: #24e09b;
 		border: none;
-		padding: 12px 35px;
+		padding: 15px 40px;
 		border-radius: 4px;
-		margin-left: 25px;
+		/*margin-left: 25px;*/
 	}
 
 	.header-btn:hover {
@@ -147,14 +189,19 @@
 	}
 
 	.header-btn i {
-		font-size: 10px;
+		font-size: 14px;
 		padding-left: 10px;
 	}
-	.navbar-wrapper {
+	/*.navbar-wrapper {
 		text-align: right;
-	}
+	}*/
 	.header-navbar {
 		display: inline-block;
+		margin-top: 10px;
+	}
+
+	.navbar-wrapper {
+		margin-left: 32px;
 	}
 
 	/*#########################*/
@@ -165,7 +212,7 @@
 
 	.banner-contant h4 {
 		color: white;
-		font-size: 55px;
+		font-size: 65px;
 		font-family: alata-regular;
 		font-weight: 400;
 		margin-bottom: 30px;
@@ -204,7 +251,7 @@
 	}
 
 	.banner-img {
-		margin-right: -85px;
+		margin-right: -165px;
 	}
 
 					/*.banner-end*/
@@ -261,6 +308,8 @@
 	.features-box:hover {
 		background-color: #3747D4;
 		color: white;
+		box-shadow: 0px 0px 20px 0px #6c757d;
+		border: none;
 	}
 
 	.features-box:hover p {
@@ -1434,10 +1483,10 @@
 	}
 
 
-	.active i,.slider ul li i:hover {
+	/*.active i,.slider ul li i:hover {###################################################################################################################################
 		color: blue !important;
 	}
-
+*/
 	/*#########################################################*/
 
 	.about-logos img {
@@ -1694,4 +1743,178 @@
 .elementer-link button i {
 	margin-left: 10px;
     font-size: 15px;
+}
+
+/*############################################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*home02-start*/
+
+.home02 {
+	background-image: url("http://sasscokit.demothemesflat.com/wp-content/uploads/2020/09/banner-home-02.png");
+}
+
+.home02-logo span {
+	color: #FFB400!important;
+}
+
+.home02-btn {
+	padding: 12px 12px;
+    width: 125px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.home02-btn i {
+	margin-left: 10px;
+}
+
+.orange {
+	background-color: #fd7e14;
+}
+
+.log-in-bg-blue {
+	background-color: #3747D4;
+	margin-right: 20px;
+}
+
+.home-dropdown ul li a {
+	padding-right: 25px;
+}
+
+.home-dropdown ul ul li {
+	font-size: 10px;
+	margin-left: -10px;
+	color: white;
+	background-color: black;
+	width: 220px;
+	padding: 10px 0px;
+}
+
+.home-dropdown ul ul li a {
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.home-dropdown ul ul li:hover {
+	color: white;
+	background-color: #fd7e14;
+}
+
+.banner-contant span {
+	text-decoration: underline;
+}
+
+.home02-banner-contant p {
+	font-size: 18px!important;
+}
+
+.home02-banner-contant button {
+	background: linear-gradient(279deg, rgba(251,216,21,1) 0%, rgba(254,151,8,1) 55%);
+}
+
+.home02-banner-contant button i {
+	padding-left: 5px;
+}
+
+
+          /*home02-end*/
+
+/*################################################################*/
+
+
+
+
+
+
+
+				/*company-testimonial-start*/
+
+
+.company-testimonial {
+	background-color: #F3F8FF;
+	margin-bottom: -8%;
+}
+
+.company-testimonial h2 {
+	font-size: 45px;
+	font-family: alata-regular;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.company-testimonial coustomer-love-us p {
+	font-size: 18px;
+	font-family: poppins-regular;
+	color: #7A7F83;
+	line-height: 35px;
+	margin-top: 45px;
+	margin-bottom: 10%;
+}
+
+
+/*#############################################################*/
+
+
+.testimonial-logo-name {
+    padding: 50px 50px 0px 50px;
+    line-height: 35px;
+    font-family: 'poppins-regular';
+    color: #6c757d;
+}
+
+.testimonial-logo-name p {
+	margin-bottom: 30px;
+}
+
+.testimonial-logo-name img {
+    padding: 3px;
+    border: 3px solid purple;
+}
+
+/*###########################################################*/
+
+.testimonial-slider {
+	padding-top: 0;
+	padding-bottom: 80px;
+}
+
+/*##################################################################*/
+
+
+
+				/*our-service*/
+
+
+
+.features-box-our-service {
+	padding-top: 50px;
+	text-align: center;
+    padding-bottom: 50px;
+}
+
+.features-box-our-service button {
+	padding: 20px 45px;
+    border-radius: 5px;
+    color: white;
+    background-color: #24E09B;
+    border: none;
+}
+
+.features-box-our-service button i {
+	margin-left: 15px;
 }
