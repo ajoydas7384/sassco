@@ -200,9 +200,7 @@
 		margin-top: 10px;
 	}
 
-	.navbar-wrapper {
-		margin-left: 32px;
-	}
+
 
 	/*#########################*/
 
@@ -227,7 +225,7 @@
 	}
 
 	.banner-contant button {
-		padding: 17px 35px;
+		padding: 20px 35px;
 		color: white;
 		background-color: #24e09b;
 		border: none;
@@ -1765,6 +1763,8 @@
 
 .home02 {
 	background-image: url("http://sasscokit.demothemesflat.com/wp-content/uploads/2020/09/banner-home-02.png");
+	padding-bottom: 20%;
+	margin-bottom: 25px;
 }
 
 .home02-logo span {
@@ -1831,8 +1831,52 @@
 	padding-left: 5px;
 }
 
+.home02-banner-contant a {
+	padding-left: 30px;
+	text-decoration: underline;
+	color: white;
+}
 
-          /*home02-end*/
+
+.home02-banner-contant a:hover {
+	color: #FFB400;
+	text-decoration: underline;
+}
+
+
+.features-application {
+	display: inline-block;
+    padding: 60px 30px;
+    border: 1px solid #007cba;
+    text-align: center;
+    margin: 10px;
+}
+
+.homw02-amazing-application h2 {
+	font-size: 45px;
+	margin-bottom: 50px;
+}
+
+.homw02-amazing-application p {
+	font-size: 15px;
+	line-height: 28px;
+	font-family: poppins-regular;
+	color: #7A7F83;
+	margin-bottom: 40px;
+}
+
+.homw02-amazing-application button {
+	padding: 20px 45px;
+	border-radius: 5px;
+	color: white;
+	background-color: #3747D4;
+}
+
+.homw02-amazing-application i {
+	margin-left: 10px;
+}
+
+/*home02-end*/
 
 /*################################################################*/
 
