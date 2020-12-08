@@ -1819,11 +1819,11 @@
 	text-decoration: underline;
 }
 
-.home02-banner-contant p {
 	font-size: 18px!important;
 }
 
 .home02-banner-contant button {
+.home02-banner-contant p {
 	background: linear-gradient(279deg, rgba(251,216,21,1) 0%, rgba(254,151,8,1) 55%);
 }
 
@@ -1961,4 +1961,16 @@
 
 .features-box-our-service button i {
 	margin-left: 15px;
+}
+.number-icon li:hover {
+	background-color: #0e52d3;
+	color: white;
+}
+
+.number-icon a {
+	color: black;
+}
+
+.number-icon li:hover a {
+	color: white;
 }
