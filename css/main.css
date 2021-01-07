@@ -1818,12 +1818,11 @@
 .banner-contant span {
 	text-decoration: underline;
 }
-
+.home02-banner-contant p {
 	font-size: 18px!important;
 }
 
 .home02-banner-contant button {
-.home02-banner-contant p {
 	background: linear-gradient(279deg, rgba(251,216,21,1) 0%, rgba(254,151,8,1) 55%);
 }
 
@@ -1844,38 +1843,114 @@
 }
 
 
+
+.home02-amazing-application {
+	padding-bottom: 70px;
+}
+
 .features-application {
 	display: inline-block;
-    padding: 60px 30px;
-    border: 1px solid #007cba;
+    padding: 30px 20px;
     text-align: center;
     margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #f2f4fb;
+    border-radius: 5px;
+	box-shadow: 0px 0px 10px 2px #f2f4fb;
 }
 
-.homw02-amazing-application h2 {
-	font-size: 45px;
-	margin-bottom: 50px;
+.features-application img {
+	padding-bottom: 20px;
 }
 
-.homw02-amazing-application p {
+.features-application:hover {
+	background-image: url(../images/home02/features-application.png);
+	padding: 45px 30px;
+}
+
+.features-application:hover p {
+	color: white;
+}
+
+.home02-amazing-application h2 {
+	font-size: 43px;
+	padding-bottom: 35px;
+}
+
+.home02-amazing-application p {
 	font-size: 15px;
 	line-height: 28px;
 	font-family: poppins-regular;
 	color: #7A7F83;
-	margin-bottom: 40px;
 }
 
-.homw02-amazing-application button {
+.home02-amazing-application button {
 	padding: 20px 45px;
 	border-radius: 5px;
 	color: white;
-	background-color: #3747D4;
+	background-color: #0e5be3;
+	border: none;
+	margin-top: 20px;
 }
 
-.homw02-amazing-application i {
+.home02-amazing-application i {
 	margin-left: 10px;
 }
 
+
+.home02-features-application {
+	padding-left: 20%;
+}
+
+
+.proper-guide {
+	padding-left: 18%;
+}
+
+.download-app {
+	background-image: url(../images/home02/Download-app-bg-img.jpg);
+}
+
+.download-app h2 {
+	color: white;
+}
+
+.download-app h2 {
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.download-app p {
+	font-size: 19px;
+	margin-bottom: 45px;
+	color: white;
+}
+
+.download-app-right {
+	padding-left: 18%;
+}
+
+.download-app-container {
+	padding-top: 6%;
+}
+
+.download-app button {
+	padding: 18px 50px;
+	background-color: #2b69db;
+	border-radius: 5px;
+	border: none;
+	color: white;
+}
+
+.download-app button:hover {
+	background-color: #f3a20c;
+	transition: 0.5s;
+}
+
+.download-app button i {
+	margin-right: 10px;
+}
 /*home02-end*/
 
 /*################################################################*/
