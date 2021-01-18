@@ -482,10 +482,10 @@
 		border: 10px solid #07DDD6;
 	}
 
-	.text-center h2 {
+	/*.text-center h2 {
 		font-family: alata-regular;
-		/*font-size: 40px;*/
-	}
+		font-size: 40px;
+	}*/
 
 	.team1 h6 {
 		color: #00A2FF;
@@ -1841,10 +1841,14 @@
 	text-decoration: underline;
 }
 
-
-
 .home02-amazing-application {
 	padding-bottom: 70px;
+}
+
+.home02-features-application img {
+	padding-bottom: 20px;
+    width: 60px;
+    height: 75px;
 }
 
 .features-application {
@@ -1859,17 +1863,19 @@
 	box-shadow: 0px 0px 10px 2px #f2f4fb;
 }
 
-.features-application img {
-	padding-bottom: 20px;
+.application-open {
+	padding: 70px 35px 30px 35px;
+    background-image: url(../images/home02/features-application.png);
+    background-size: contain;
+    background-size: cover;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-.features-application:hover {
-	background-image: url(../images/home02/features-application.png);
-	padding: 45px 30px;
-}
-
-.features-application:hover p {
-	color: white;
+.application-open p {
+    color: white!important;
 }
 
 .home02-amazing-application h2 {
@@ -1909,6 +1915,7 @@
 
 .download-app {
 	background-image: url(../images/home02/Download-app-bg-img.jpg);
+	background-repeat: round;
 }
 
 .download-app h2 {
@@ -1949,6 +1956,409 @@
 
 .download-app button i {
 	margin-right: 10px;
+}
+
+.sasscoapps h2 {
+	padding-top: 12%;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.sasscoapps p {
+	font-size: 22px;
+	line-height: 35px;
+	color: #95999c;
+	padding-bottom: 7%;
+}
+
+.sasscoapps span {
+	color: orange;
+}
+
+.sassco-icon {
+	padding-bottom: 8%;
+}
+
+.sassco-icon p {
+	font-size: 22px;
+}
+
+.super-clean {
+	padding-left: 8%;
+}
+
+.super-clean h2 {
+	font-size: 50px;
+	padding-bottom: 25px;
+}
+
+.super-clean p {
+	font-size: 17px;
+    color: #afb2b5;
+    line-height: 30px;
+}
+
+.super-clean button {
+	padding: 15px 50px;
+    background-color: #0f61ee;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.super-clean button i {
+	margin-left: 20px;
+    font-size: 12px;
+}
+
+.super-clean-img img {
+	border: 10px solid #DFDFDF7D;
+	border-radius: 50px;
+}
+
+
+.home02-pricing-table {
+	background-image: url(../images/home02/pricing-table-bg2.jpg);
+	color: white;
+	padding-bottom: 6%;
+	background-repeat: round;
+}
+
+.home02-price-box {
+	border: 2px solid #3575e8;
+	border-radius: 6px;
+}
+
+.home02-price-box-active {
+    border-radius: 6px;
+    background-image: url(../images/home02/pricing-table-bg.png);
+    color: black;
+    margin-top: -15px;
+    padding-top: 15px;
+    margin-bottom: -15px;
+    padding-bottom: 15px;
+    background-size: cover;
+}
+
+.home02-price-box-active .home02-price-text {
+	background-color: white;
+}
+
+.home02-price-box-active button {
+	padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+	background: linear-gradient(104deg, rgba(251,216,21,1) 41%, rgba(254,151,8,1) 61%);    color: white;
+	margin-bottom: 20%;
+}
+
+.home02-price-box-active button:hover {
+	background: linear-gradient(104deg, rgba(254,151,8,1) 32%, rgba(251,216,21,1) 61%);
+}
+
+.home02-price-text {
+	border: 2px solid #3575e8;
+    border-radius: 15px;
+    margin-top: 12%;
+    margin-bottom: 15%;
+    padding: 50px;
+}
+
+.home02-price-text h4 {
+	font-size: 35px;
+	padding-bottom: 15px;
+}
+
+.home02-price-text h2 {
+	padding-bottom: 15px;
+	font-size: 40px;
+}
+
+.home02-pricing-plan h2 {
+	font-size: 50px;
+    margin-top: 12%;
+    margin-bottom: 3%;
+}
+
+.home02-pricing-plan p {
+	font-size: 22px;
+    margin-bottom: 12%;
+}
+
+.home02-price-box button {
+	padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+	background: linear-gradient(104deg, rgba(251,216,21,1) 41%, rgba(254,151,8,1) 61%);    color: white;
+	margin-bottom: 20%;
+}
+
+.home02-price-box button i {
+	margin-left: 10px;
+}
+
+.home02-price-box button:hover {
+	background: linear-gradient(104deg, rgba(254,151,8,1) 32%, rgba(251,216,21,1) 61%);
+}
+
+.home02-happy-user-icon img {
+}
+
+.home02-user-img {
+	border: 1px solid blue;
+    border-radius: 50%;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    margin-left: 45px;
+}
+
+.home02-happy-user-box {
+	margin-top: 7%;
+}
+
+.home02-happy-user-box:hover {
+ 	box-shadow: 0px 0px 10px 10px #f2f4fb;
+ 	color: #fa9304;
+ 	border-radius: 10px;
+}
+
+.home02-happy-user-box:hover home02-user-img {
+ 	border: 1px solid #fa9304;
+}
+
+.home02-happy-user-box h2 {
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+.home02-happy-user-box p {
+	margin-bottom: 30px;
+}
+
+
+
+.home02-happy-user-icon-text p {
+ 	font-size: 23px;
+    font-weight: lighter;
+    color: #102039;
+    font-family: poppins-light;
+    line-height: 45px;
+ }
+
+
+.happy-user-icon-right {
+ 	background-image: url(../images/home02/happy-user.png);
+ 	height: 511px;
+ 	margin-bottom: 15px;
+ }
+
+
+.home02-happy-user-icon-img {
+	padding-left: 83px;
+}
+
+.home02-happy-user-icon-img img {
+	width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.elimentor-image-left {
+ 	background: linear-gradient(90deg, rgba(57,29,253,1) 12%, rgba(14,188,246,1) 41%, rgba(5,241,233,1) 75%);
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.elimentor-image-left img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 85px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.elimentor-left-bottom h6 {
+	font-family: poppins-medium;
+	margin-top: 15px;
+	color: #392DC8;
+}
+
+.home02-happy-user-icon-text ul li {
+	list-style: none;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.home02-happy-user-icon-text ul li i {
+	color: blue;
+	font-size: 13px;
+	width: 25px;
+	height: 25px;
+}
+
+.home02-happy-user-icon-text ul li i:hover {
+	font-size: 20px;
+}
+
+.elimentor-image-bg1 {
+	background: linear-gradient(90deg, rgba(253,223,29,1) 50%, rgba(241,5,27,1) 86%);
+    width: 90px;
+    border-radius: 50%;
+    text-align: center;
+    height: 90px;
+}
+
+.elimentor-image-bg2 {
+	background: linear-gradient(90deg, rgba(57,29,253,1) 12%, rgba(14,188,246,1) 41%, rgba(5,241,233,1) 75%);
+    width: 90px;
+    border-radius: 50%;
+    text-align: center;
+    height: 90px;
+}
+
+.happy-user-team1 {
+	padding-top: 60px;
+    margin-left: -16px;
+}
+.happy-user-team2 {
+	padding-left: 190px;
+    margin-top: -190px;
+}
+.happy-user-team3 {
+	padding-left: 90%;
+    margin-top: 70px;
+}
+.happy-user-team4 {
+	padding-left: 40%;
+}
+.happy-user-team5 {
+	padding-left: 30px;
+    padding-top: 100px;
+}
+.happy-user-team6{
+	padding-left: 73%;
+    margin-top: -90px;
+}
+
+
+
+.frequently-aria {
+	background-color: #f8f9fb;
+	margin-top: 8%;
+}
+
+.frequently-head h2 {
+	font-size: 45px;
+	padding-top: 55px;
+	padding-bottom: 25px;
+}
+
+.frequently-head p {
+	font-size: 20px;
+	color: gray;
+	line-height: 35px;
+	padding-bottom: 60px;
+}
+
+.frequently-body h2 {
+	padding-bottom: 20px;
+	font-size: 28px;
+	padding-top: 15px;
+}
+
+.frequently-body p {
+	font-size: 17px;
+    line-height: 30px;
+    color: gray;
+}
+
+.frequently-botton button {
+	border: none;
+    padding: 17px 45px;
+    border-radius: 5px;
+	background: linear-gradient(90deg, rgba(253,223,29,1) 50%, rgba(241,5,27,1) 86%);
+    color: white;
+}
+
+.frequently-botton button:hover {
+	background: linear-gradient(90deg, rgba(57,29,253,1) 12%, rgba(14,188,246,1) 41%, rgba(5,241,233,1) 75%);
+	transition: 0.5s;
+}
+
+.footer-aria {
+	background-image: url(../images/home02/Download-app-bg-img.jpg);
+	color: white;
+	padding-bottom: 7%;
+}
+
+
+.footer-aria h3 {
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+
+.footer-aria h2 span {
+	color: #f99505;
+}
+
+.footer-aria h2 {
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+
+.footer-aria p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.footer-aria h4 {
+	font-size: 19px;
+    padding-bottom: 17px;
+    line-height: 35px;
+}
+
+.footer-aria h4:hover {
+	color: #f99505;
+}
+
+.footer-aria h6 {
+	font-size: 13px;
+	color: #b3c3e4;
+}
+
+.footer-aria .link {
+	padding: 20px 190px 20px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    margin-bottom: 40px;
+}
+
+.footer-aria .link a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-aria button {
+	padding: 20px 70px 20px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f69b08;
+    color: white;
+}
+
+.footer-aria button i {
+	margin-left: 15px;
 }
 /*home02-end*/
 
@@ -2050,3 +2460,10 @@
 }
 
 
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
