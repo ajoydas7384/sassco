@@ -121,7 +121,7 @@
 	}
 
 	.header-navbar ul li a {
-		padding-right: 35px;
+		padding-right: 28px;
 		color: #fff;
 		font-size: 17px;
 		font-family: "alata-regular";
@@ -1571,6 +1571,10 @@
 		border: 1px solid #24dfbf;
 	}
 
+	.blog .header-navbar ul li a {
+		padding-right: 45px;
+	}
+
 	/*######################################################*/
 
 
@@ -2253,6 +2257,8 @@
 .frequently-aria {
 	background-color: #f8f9fb;
 	margin-top: 8%;
+	z-index: 9;
+	position: relative;
 }
 
 .frequently-head h2 {
@@ -2297,6 +2303,12 @@
 	background-image: url(../images/home02/Download-app-bg-img.jpg);
 	color: white;
 	padding-bottom: 7%;
+	padding-top: 37%;
+    margin-top: -30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -2360,9 +2372,94 @@
 .footer-aria button i {
 	margin-left: 15px;
 }
+
+
+.footer-aria ul {
+	padding: 0;
+	padding-top: 50px;
+}
+
+.footer-aria ul li {
+	display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-aria ul li i {
+	/*margin-top: 10px;*/
+}
+
+.footer-aria ul li:hover {
+	background-color: #f69b08;
+}
+
+.copyright-aria {
+	background-color: black;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
 /*home02-end*/
 
 /*################################################################*/
+
+
+
+/*#####################################################*/
+
+/*HOME03-START*/
+
+
+.home03 ul li {
+	display: inline-block;
+}
+
+.home03 ul li a:hover {
+	text-decoration: none;
+}
+
+.home03-navber ul li a {
+	color: black;
+	margin-right: 45px;
+	padding: 0;
+}
+
+.home03 .active {
+	border-bottom: 1px solid red;
+	padding-bottom: 19px;
+}
+
+.home03-navber ul ul li {
+	text-align: left;
+}
+
+.home03 .logo {
+	background-color: #4a63fe;
+	color: white;
+}
+
+.home03 .logo span {
+	color: #ff9739;
+}
+
+.home03 .link {
+	background-color: #ff9739;
+	padding-top: 17px;
+}
+
+.home03 .link a {
+	color: white;
+}
+
+.home03 .header-aria {
+	border-bottom: 1px solid #e7eaf5;
+}
+/*HOME03-END*/
 
 
 
