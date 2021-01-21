@@ -2415,6 +2415,11 @@
 /*HOME03-START*/
 
 
+
+.home03 {
+	padding-bottom: 80px;
+}
+
 .home03 ul li {
 	display: inline-block;
 }
@@ -2427,11 +2432,6 @@
 	color: black;
 	margin-right: 45px;
 	padding: 0;
-}
-
-.home03 .active {
-	border-bottom: 1px solid red;
-	padding-bottom: 19px;
 }
 
 .home03-navber ul ul li {
@@ -2456,8 +2456,72 @@
 	color: white;
 }
 
+.home03 .link a i {
+	padding-left: 15px;
+}
+
 .home03 .header-aria {
 	border-bottom: 1px solid #e7eaf5;
+}
+
+/*######################################################################*/
+
+.creative-aria {
+	background-image: url("http://sasscokit.demothemesflat.com/wp-content/uploads/2020/09/bg-home-03.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.creative-aria h2 {
+	font-size: 55px;
+}
+
+.creative-aria p {
+	font-size: 18px;
+    font-family: poppins-regular;
+    padding: 20px 20%;
+    line-height: 30px;
+    color: gray;
+}
+
+.creative-aria button {
+	padding: 20px 50px;
+    border-radius: 5px;
+    background-color: #4a63fe;
+    color: white;
+    border: none;
+}
+
+.creative-aria button i {
+	padding-left: 15px;
+}
+
+.what-we-do {
+	background-color: #F3F8FF;
+	margin-top: -60px;
+	padding-bottom: 25%;
+}
+
+.what-we-do .features-box {
+	background-color: white;
+	border: none;
+}
+
+.what-we-do .features-box:hover {
+	background-color: blue;
+}
+
+.what-we-do .active {
+	background-color: blue;
+	color: white!important;
+}
+
+.what-we-do .active p {
+	color: white;
+}
+
+.our-winning {
+	background-image: url("http://sasscokit.demothemesflat.com/wp-content/uploads/2020/09/bg-winning-01.png");
 }
 /*HOME03-END*/
 
