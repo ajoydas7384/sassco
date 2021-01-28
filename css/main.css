@@ -302,7 +302,7 @@
 		color: #7A7F83;
 	}
 
-	.features-box:hover {
+	.hovered .features-box:hover {
 		background-color: #3747D4;
 		color: white;
 		box-shadow: 0px 0px 20px 0px #6c757d;
@@ -2507,9 +2507,9 @@
 	border: none;
 }
 
-.what-we-do .features-box:hover {
+/*.what-we-do .features-box:hover {
 	background-color: blue;
-}
+}*/
 
 .what-we-do .active {
 	background-color: blue;
@@ -2521,7 +2521,77 @@
 }
 
 .our-winning {
-	background-image: url("http://sasscokit.demothemesflat.com/wp-content/uploads/2020/09/bg-winning-01.png");
+	background-image: url("../images/home02/winning-bg.png");
+    box-shadow: 0px 0px 6px -2px grey;
+    margin-top: -10%;
+    padding-top: 10%;
+}
+
+
+
+.winning-awards {
+	padding-left: 10%;
+	padding-bottom: 14%;
+}
+
+.winning-awards h2 {
+	font-size: 45px;
+	padding-bottom: 15px;
+}
+
+.winning-awards p {
+	font-size: 17px;
+    line-height: 30px;
+    color: darkgray;
+    padding-bottom: 20px;
+}
+
+.winning-awards button {
+	padding: 18px 40px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+
+
+.winning-logo {
+	border-radius: 50%;
+	border: 1px solid red;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 90px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.global-business {
+	padding-top: 5%;
+	padding-bottom: 12%;
+}
+
+.global-business h2 {
+	font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.global-business p {
+	font-size: 19px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.global-business button {
+	padding: 15px 50px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.home03-price {
+	margin-top: -6%;
 }
 /*HOME03-END*/
 
